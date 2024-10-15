@@ -1,0 +1,67 @@
+/* || RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+button {
+  font: inherit;
+  color: inherit;
+}
+
+/* || GENERAL STYLES */
+body {
+  width: 700px;
+  padding: 0.5rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(30, 30, 30);
+  color: whitesmoke;
+}
+
+/* || HEADER */
+.header__h1 {
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+  text-align: center;
+}
+
+/* || MAIN */
+.main__p {
+  margin-block: 0.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.main__btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.main__btn {
+  border: 2px solid whitesmoke;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: transparent;
+}
+
+.main__btn:is(:hover, :focus, :active) {
+  background-color: rgb(60, 60, 60);
+}
+
+.main__btn--cancel {
+  padding: 0.25rem;
+}
+
+.main__link {
+  color: whitesmoke;
+  padding: 0.25rem;
+  text-decoration: none;
+}

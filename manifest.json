@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Ambil Screenshot",
+  "description": "Ekstensi ini berfungsi untuk mengambil screenshot dari tab yang sedang digunakan. Klik icon ekstensi ini untuk mengambil screenshot.",
+  "version": "1.0.0",
+  "author": "Fatah Pratama",
+  "permissions": [
+    "activeTab"
+  ],
+  "action": {
+    "default_popup": "popup/popup.html"
+  }
+}
